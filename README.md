@@ -3,6 +3,8 @@
 A Worlde-esque game but with Monsters from Monster Hunter. Use your Monster Hunter knowledge alongside each guess to hone in the random monster each day. Guess Monsters from all the mainline games. I love playing Wordle based games and I love Monster Hunter. So why not make my own to test out how good I am at guessing Monsters. (Quite bad but got good after making this game). 
 
 > [!Warning]
+> There is no mobile version. There probably wont be one. 
+> [!Warning]
 > **Wilds is planned but currently NOT included.**
 
 > [!NOTE]
