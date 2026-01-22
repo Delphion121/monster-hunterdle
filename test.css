@@ -1,0 +1,85 @@
+
+.dynamic-textbox{
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    min-width: 150px;
+    min-height: 225px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+.corner {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-size: cover;
+}
+
+.corner.top-left{
+    top: 0;
+    left: 0;
+    background-image: url(Icons/corner-top-left.png);
+}
+.corner.top-right{
+    top: 0;
+    right: 0;
+    background-image: url(Icons/corner-top-right.png);
+}
+.corner.bottom-left{
+    bottom: 0;
+    left: 0;
+    background-image: url(Icons/corner-bottom-left.png);
+}
+.corner.bottom-right{
+    bottom: 0;
+    right: 0;
+    background-image: url(Icons/corner-bottom-right.png);
+}
+.edge{
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.edge.top{
+    top: 0;
+    left: 75px;
+    right: 75px;
+    height: 75px;
+    background-image: url(Icons/edge-horizontal.png);
+}
+.edge.bottom{
+    bottom: 0;
+    left: 75px;
+    right: 75px;
+    height: 75px;
+    background-image: url(Icons/edge-horizontal.png);
+
+}
+.edge.right{
+    top: 75px;
+    bottom: 75px;
+    right: 0;
+    width: 75px;
+    background-image: url(Icons/edge-vertical.png);
+}
+.edge.left{
+    top: 75px;
+    bottom: 75px;
+    left: 0;
+    width: 75px;
+    background-image: url(Icons/edge-vertical.png);
+
+}
+.inner-wrapper{
+    position: relative;
+    background-color: #2f3b9cff;
+    padding: 40px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    overflow: hidden; /* To handle long content */
+    z-index: 1;
+}
+.content{
+    word-wrap: break-word;
+    color: white;
+}

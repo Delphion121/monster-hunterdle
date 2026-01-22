@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monsterhunterdle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal-overlay"></div>
+    <div class="modal-overlay-two"></div>
+    <div class="main-container">
+        <div class="background-image-container">
+          <img src="Icons/background-image.png" alt="" class="background-image">  
+        </div>
+        
+        <div class="header-container">
+           <img src="Icons/monstly-logo.png" alt="">
+           <div class="header-info">
+            
+            <button class="info-button" id="info-button">
+                <img class="info-icon" src="Icons/info_icon.png" alt="">
+            </button>
+            <button class="help-button" id="help-button">
+                <img class="help-icon" src="Icons/help_icon.png" alt="">
+            </button>
+           </div>
+        </div>
+     <div class="tutorial-box">
+            <button id="tut-button" class="tut-button">X</button>
+            <div class="correct-guess">Correct Guess</div>
+            <div class="partial-guess">Partially Correct</div>
+            <div class="wrong-guess">Incorrect Guess</div>
+            <div class="wrong-up">Guess Higher</div>
+            <div class="wrong-down">Guess Lower</div>
+            <button class="colorblind-button" id="colorblindToggle">Colorbind Mode</button>
+        </div>
+        <div class="daily-monster-box dynamic-textbox" id="daily-monster-box">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div>
+            <div class="corner bottom-right"></div>
+            <div class="edge top"></div>
+            <div class="edge bottom"></div>
+            <div class="edge left"></div>
+            <div class="edge right"></div>
+            <div class="inner-wrapper">
+                <div class="daily-monster-text content" id="daily-monster-text"></div>
+            </div> 
+        </div> 
+        <div class="information-box dynamic-textbox">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div>
+            <div class="corner bottom-right"></div>
+            <div class="edge top"></div>
+            <div class="edge bottom"></div>
+            <div class="edge left"></div>
+            <div class="edge right"></div>
+            <button id="info-exit" class="info-exit">X</button>
+            <div class="inner-wrapper">
+                <div class="info-text content">Welcome to Monstle! A game where you have to guess the monster I'm thinking of! To make it easier for you, monsters from 
+                    Frontier are almost entirely excluded. Additionally, sub-species are also not included - Instead, if a monster has a subspecies, it will Instead
+                    be included in the "Has Subspecies?" metric. Deviants and Variants have distanct changes that make them a bit more memorable, so I've included them.
+                    Deviants/Variants will share the same subspecies with the original monster. Example: Brute tigrex will count as a subspecies for Grimclaw and Regular
+                    Tigrex. Spinoff games and Monster Hunter Online are not considered for any metric!
+
+                </div>
+            </div>
+
+        <img class="guildarm-one" src="/Icons/guildarm-one-2.png" alt="">
+        </div> 
+    <div class="play-container">
+        <div class="win-screen">
+            <img src="Icons/quest-completed.png" alt="">
+        </div>
+          
+    <form class="input-wrapper" id="guess-form" action="" autocomplete="off" onsubmit="return false">
+        <div id="suggest-wrapper" class="suggest-wrapper">
+        <input id="suggest-input" type="text" placeholder="Monster Name">
+        <!-- <ul class="suggest-list">
+            <li>
+                <button>Narga</button>
+            </li>
+            <li>
+                <button>Brachy</button>
+            </li>
+            <li>
+                <button>Volvidon</button>
+            </li>
+        </ul> -->
+    </div>
+        <button type="submit" class="button-submit" id="button-submit"><img src="Icons/send-image.png" alt=""></button>
+    </form>
+    <div class="guess-container">
+        <div class="guess-header">
+            <div class="guess-metric">Monster</div>
+            <div class="guess-metric">First Appearance</div>
+            <div class="guess-metric">Element</div>
+            <div class="guess-metric">Ailment</div>
+            <div class="guess-metric">Monster Class</div>
+            <div class="guess-metric">Has Subspecies?</div>
+            <div class="guess-metric">Total Appearances</div>
+        </div>
+        <!-- <div class="individual-guess">
+            <img class="monster-image" src="monster_renders/Agnaktor_Render.webp" alt="">
+            <div class="correct-guess">3 Tri</div>
+            <div class="wrong-guess">Fire</div>
+            <div class="partial-guess">Fireblight</div>
+            <div class="correct-guess">Leviathan</div>
+            <div class="wrong-down">1</div>
+            <div class="wrong-up">5</div>
+        </div>
+        <div class="individual-guess">
+            <img class="monster-image" src="monster_renders/Agnaktor_Render.webp" alt="">
+            <div class="correct-guess">Correct</div>
+            <div class="correct-guess">Correct</div>
+            <div class="correct-guess">Correct</div>
+            <div class="correct-guess">Correct</div>
+            <div class="correct-guess">Correct</div>
+            <div class="correct-guess">Correct</div> -->
+            
+
+        </div>
+    </div>
+
+</div>
+    
+
+</div>
+    <script src="./suggestions.js"></script>
+    <script src="/public/daily.js"></script>
+    <script src="/public/colorblind.js "></script>
+    <script src="/public/buttons.js"></script>
+    <script src="/public/tutorial.js"></script>
+</body>
+</html>

@@ -1,0 +1,1368 @@
+[
+    {
+      "Name": "Agnaktor",
+      "First Appearance": "3 Tri",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight"],
+      "Monster Class": "Leviathan",
+      "Has Subspecies?": 1,
+      "Total Appearances": 5
+    },
+    {
+      "Name": "Ahtal-Ka",
+      "First Appearance": "Generations Ultimate",
+      "Element": ["None"],
+      "Ailments": ["Webbed"],
+      "Monster Class": "Neopteron",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Akantor",
+      "First Appearance": "Freedom 2",
+      "Element": ["Fire", "Dragon"],
+      "Ailments": ["Defense Down", "Fireblight", "Dragonblight"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 7
+    },
+    {
+      "Name": "Aknosom",
+      "First Appearance": "Rise",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight"],
+      "Monster Class": "Bird Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Alatreon",
+      "First Appearance": "3 Tri",
+      "Element": ["Dragon", "Fire", "Ice", "Thunder", "Water"],
+      "Ailments": ["Dragonblight", "fireblight", "Iceblight", "Thunderblight", "Waterblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 6
+    },
+    {
+      "Name": "Almudron",
+      "First Appearance": "Rise",
+      "Element": ["Water"],
+      "Ailments": ["Waterblight", "Muddy"],
+      "Monster Class": "Leviathan",
+      "Has Subspecies?": 1,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Amatsu",
+      "First Appearance": "Portable 3rd",
+      "Element": ["Water", "Thunder"],
+      "Ailments": ["Waterblight", "Thunderblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 5
+    },
+    {
+      "Name": "Anjanath",
+      "First Appearance": "World",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight"],
+      "Monster Class": "Brute Wyvern",
+      "Has Subspecies?": 1,
+      "Total Appearances": 4
+    },
+    {
+      "Name": "Arzuros",
+      "First Appearance": "Portable 3rd",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Fanged beast",
+      "Has Subspecies?": 0,
+      "Total Appearances": 6
+    },
+    {
+      "Name": "Astalos",
+      "First Appearance": "Generations",
+      "Element": ["Thunder"],
+      "Ailments": ["Thunderblight", "Paralysis"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 3
+    },
+    {
+      "Name": "Baelidae",
+      "First Appearance": "Online",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Carapaceon",
+      "Has Subspecies?": 1,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Banbaro",
+      "First Appearance": "Iceborne",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Brute Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Barioth",
+      "First Appearance": "3 Tri",
+      "Element": ["Ice"],
+      "Ailments": ["Iceblight", "Snowman"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 3,
+      "Total Appearances": 7
+    },
+    {
+      "Name": "Barroth",
+      "First Appearance": "3 Tri",
+      "Element": ["Water"],
+      "Ailments": ["Muddy", "Waterblight"],
+      "Monster Class": "Brute Wyvern",
+      "Has Subspecies?": 1,
+      "Total Appearances": 8
+    },
+    {
+      "Name": "Basarios",
+      "First Appearance": "Monster Hunter",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight", "Poison", "Noxious Posion", "Sleep"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 3,
+      "Total Appearances": 11
+    },
+    {
+      "Name": "Bazelgeuse",
+      "First Appearance": "World",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight", "Blastblight"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 1,
+      "Total Appearances": 4
+    },
+    {
+      "Name": "Behemoth",
+      "First Appearance": "World",
+      "Element": ["Fire", "Thunder"],
+      "Ailments": ["Fireblight", "Thunderblight", "Bleeding", "Defense Down"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Beotodus",
+      "First Appearance": "Iceborne",
+      "Element": ["Ice"],
+      "Ailments": ["Iceblight"],
+      "Monster Class": "Piscine Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Bishaten",
+      "First Appearance": "Rise",
+      "Element": ["None"],
+      "Ailments": ["Poison", "Stun", "Paralysis"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 1,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Blangonga",
+      "First Appearance": "2",
+      "Element": ["Ice"],
+      "Ailments": ["Iceblight", "Snowman"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 1,
+      "Total Appearances": 5
+    },
+    {
+      "Name": "Bloodbath Diablos",
+      "First Appearance": "Generations Ultimate",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Boltreaver Astalos",
+      "First Appearance": "Generations Ultimate",
+      "Element": ["Thunder"],
+      "Ailments": ["Thunderblight", "Paralysis"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Brachydios",
+      "First Appearance": "3 Ultimate",
+      "Element": ["None"],
+      "Ailments": ["Blastblight", "Blastscourge", "Slimeblight"],
+      "Monster Class": "Brute Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 6
+    },
+    {
+      "Name": "Bulldrome",
+      "First Appearance": "2",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 0,
+      "Total Appearances": 6
+    },
+    {
+      "Name": "Ceadeus",
+      "First Appearance": "3 Tri",
+      "Element": ["Water", "Dragon"],
+      "Ailments": ["Waterblight", "Dragonblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 1,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Cephadrome",
+      "First Appearance": "Monster Hunter",
+      "Element": ["Water", "Dragon"],
+      "Ailments": ["Paralysis", "Waterblight"],
+      "Monster Class": "Piscine Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 9
+    },
+    {
+      "Name": "Chameleos",
+      "First Appearance": "2",
+      "Element": ["Dragon"],
+      "Ailments": ["Poison", "Paralysis", "Noxious Poison", "Fatigue"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 8
+    },
+    {
+      "Name": "Chaotic Gore Magala",
+      "First Appearance": "4 Ultimate",
+      "Element": ["None"],
+      "Ailments": ["Frenzy Virus"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 3
+    },
+    {
+      "Name": "Congalala",
+      "First Appearance": "2",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight", "Sleep", "Soiled", "Poison", "Paralysis"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 1,
+      "Total Appearances": 6
+    },
+    {
+      "Name": "Crimson Fatalis",
+      "First Appearance": "G",
+      "Element": ["Dragon", "Fire"],
+      "Ailments": ["Blastblight", "Fireblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 8
+    },
+    {
+      "Name": "Crimson Glow Valstrax",
+      "First Appearance": "Rise",
+      "Element": ["Dragon", "Fire"],
+      "Ailments": ["Dragonblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Dahren Mohran",
+      "First Appearance": "4",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Daimyo Hermitaur",
+      "First Appearance": "2",
+      "Element": ["Water"],
+      "Ailments": ["Waterblight"],
+      "Monster Class": "Carapaceon",
+      "Has Subspecies?": 2,
+      "Total Appearances": 7
+    },
+    {
+      "Name": "Dalamadur",
+      "First Appearance": "4",
+      "Element": ["None"],
+      "Ailments": ["Paralysis"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 1,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Deadeye Yian Garuga",
+      "First Appearance": "Generations",
+      "Element": ["Fire"],
+      "Ailments": ["Poison", "Noxious Poison", "Deadly Poison", "Fireblight"],
+      "Monster Class": "Bird Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Deviljho",
+      "First Appearance": "3 Tri",
+      "Element": ["Dragon"],
+      "Ailments": ["Defense Down", "Dragonblight"],
+      "Monster Class": "Brute Wyvern, Pickle",
+      "Has Subspecies?": 0,
+      "Total Appearances": 9
+    },
+    {
+      "Name": "Diablos",
+      "First Appearance": "Monster Hunter",
+      "Element": ["None"],
+      "Ailments": ["None"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 1,
+      "Total Appearances": 15
+    },
+    {
+      "Name": "Dire Miralis",
+      "First Appearance": "3 Ultimate",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Dodogama",
+      "First Appearance": "World",
+      "Element": ["None"],
+      "Ailments": ["Blastblight"],
+      "Monster Class": "Fanged Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Dreadking Rathalos",
+      "First Appearance": "Generations",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight", "Noxious Poison"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 2,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Dreadqueen Rathian",
+      "First Appearance": "Generations",
+      "Element": ["Fire"],
+      "Ailments": ["Poison", "Noxious Posion", "Deadly Poison", "Fireblight"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 2,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Drilltusk Tetsucabra",
+      "First Appearance": "Generations",
+      "Element": ["None"],
+      "Ailments": ["Fatigue", "Stun"],
+      "Monster Class": "Amphibian",
+      "Has Subspecies?": 1,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Duramboros",
+      "First Appearance": "Portable 3rd",
+      "Element": ["None"],
+      "Ailments": ["Stun"],
+      "Monster Class": "Brute Wyvern",
+      "Has Subspecies?": 1,
+      "Total Appearances": 4
+    },
+    {
+      "Name": "Elderfrost Gammoth",
+      "First Appearance": "Generations Ultimate",
+      "Element": ["Ice"],
+      "Ailments": ["Iceblight", "Snowman"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Espinas",
+      "First Appearance": "Frontier",
+      "Element": ["Fire"],
+      "Ailments": ["Fireblight", "Poison", "Paralysis"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Fatalis",
+      "First Appearance": "Monster Hunter",
+      "Element": ["Dragon", "Fire"],
+      "Ailments": ["Fireblight", "Dragonblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 10
+    },
+    {
+      "Name": "Frostfang Barioth",
+      "First Appearance": "Iceborne",
+      "Element": ["Ice"],
+      "Ailments": ["Iceblight"],
+      "Monster Class": "Flying Wyvern",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Furious Rajang",
+      "First Appearance": "Freedom Unite",
+      "Element": ["Thunder"],
+      "Ailments": ["Thunderblight"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 0,
+      "Total Appearances": 7
+    },
+    {
+      "Name": "Gaismagorm",
+      "First Appearance": "Sunbreak",
+      "Element": ["None"],
+      "Ailments": ["Blastblight", "Bloodblight"],
+      "Monster Class": "Elder Dragon",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+      "Name": "Gammoth",
+      "First Appearance": "Generations",
+      "Element": ["Ice"],
+      "Ailments": ["Iceblight", "Snowman"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 0,
+      "Total Appearances": 2
+    },
+    {
+      "Name": "Garangolm",
+      "First Appearance": "Sunbreak",
+      "Element": ["Fire", "Water"],
+      "Ailments": ["Fireblight", "Blastblight", "Waterblight"],
+      "Monster Class": "Fanged Beast",
+      "Has Subspecies?": 0,
+      "Total Appearances": 1
+    },
+    {
+        "Name": "Gendrome",
+        "First Appearance":"Generations",
+        "Element":["None"],
+        "Ailments":["Paralysis", "Stun"],
+        "Monster Class": "Bird Wyvern",
+        "Has Subspecies?":0,
+        "Total Appearances":10
+    },
+        {
+            "Name": "Giadrome",
+            "First Appearance": "Freedom 2",
+            "Element": "Ice",
+            "Ailments": ["Iceblight", "Snowman"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Gigginox",
+            "First Appearance": "3 Tri",
+            "Element": "None",
+            "Ailments": ["Poison", "Noxious Poison"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 3
+        },
+        {
+            "Name": "Glavenus",
+            "First Appearance": "Generations",
+            "Element": "Fire",
+            "Ailments": ["Fireblight"],
+            "Monster Class": "Brute Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 3
+        },
+        {
+            "Name": "Gobul",
+            "First Appearance": "3 Tri",
+            "Element": "None",
+            "Ailments": ["Paralysis", "Stun"],
+            "Monster Class": "Leviathan",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Gogmazios",
+            "First Appearance": "4 Ultimate",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Tarred"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Gore Magala",
+            "First Appearance": "4",
+            "Element": "None",
+            "Ailments": ["Frenzy Virus"],
+            "Monster Class": "???",
+            "Has Subspecies?": 0,
+            "Total Appearances": 5
+        },
+        {
+            "Name": "Goss Harag",
+            "First Appearance": "Rise",
+            "Element": "Ice",
+            "Ailments": ["Iceblight", "Stun"],
+            "Monster Class": "Fanged Beast",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Gravios",
+            "First Appearance": "Monster Hunter",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Sleep"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 9
+        },
+        {
+            "Name": "Great Baggi",
+            "First Appearance": "3 Tri",
+            "Element": "None",
+            "Ailments": ["Sleep"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 5
+        },
+        {
+            "Name": "Great Girros",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Paralysis"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Great Izuchi",
+            "First Appearance": "Rise",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Great Jaggi",
+            "First Appearance": "3 Tri",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 5
+        },
+        {
+            "Name": "Great Jagras",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Great Maccao",
+            "First Appearance": "Generations",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Great Wroggi",
+            "First Appearance": "Portable 3rd",
+            "Element": "None",
+            "Ailments": ["Poison"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Grimclaw Tigrex",
+            "First Appearance": "Generations",
+            "Element": "None",
+            "Ailments": ["Iceblight", "Waterblight"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 2,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Gypceros",
+            "First Appearance": "Monster Hunter",
+            "Element": "None",
+            "Ailments": ["Poison", "Stun"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 10
+        },
+        {
+            "Name": "Hellblade Glavenus",
+            "First Appearance": "Generations",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Blastblight"],
+            "Monster Class": "Brute Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Iodrome",
+            "First Appearance": "Monster Hunter",
+            "Element": "None",
+            "Ailments": ["Poison"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 10
+        },
+        {
+            "Name": "Jhen Mohran",
+            "First Appearance": "3 Tri",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Jyuratodus",
+            "First Appearance": "World",
+            "Element": "Water",
+            "Ailments": ["Waterblight", "Muddy"],
+            "Monster Class": "Piscine Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Kecha Wacha",
+            "First Appearance": "4",
+            "Element": "Water",
+            "Ailments": ["Waterblight"],
+            "Monster Class": "Fanged Beast",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Khezu",
+            "First Appearance": "Monster Hunter",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight", "Paralysis", "Stun"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 12
+        },
+        {
+            "Name": "Kirin",
+            "First Appearance": "Monster Hunter",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight", "Paralysis"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 12
+        },
+        {
+            "Name": "Kulu-Ya-Ku",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Stun"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Kulve Taroth",
+            "First Appearance": "World",
+            "Element": "Fire",
+            "Ailments": ["Fireblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Kushala Daora",
+            "First Appearance": "2",
+            "Element": "Dragon",
+            "Ailments": ["Dragonblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 11
+        },
+        {
+            "Name": "Lagiacrus",
+            "First Appearance": "3 Tri",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight"],
+            "Monster Class": "Leviathan",
+            "Has Subspecies?": 2,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Lagombi",
+            "First Appearance": "Portable 3rd",
+            "Element": "Ice",
+            "Ailments": ["Iceblight", "Smowman"],
+            "Monster Class": "Fanged Beast",
+            "Has Subspecies?": 0,
+            "Total Appearances": 8
+        },
+        {
+            "Name": "Lao-Shan Lung",
+            "First Appearance": "Monster Hunter",
+            "Element": "Dragon",
+            "Ailments": ["None"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 7
+        },
+        {
+            "Name": "Lavasioth",
+            "First Appearance": "Frontier",
+            "Element": "Fire",
+            "Ailments": ["Fireblight"],
+            "Monster Class": "Piscine Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Legiana",
+            "First Appearance": "World",
+            "Element": "Ice",
+            "Ailments": ["Iceblight"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Leshen",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Bleeding"],
+            "Monster Class": "Relict",
+            "Has Subspecies?": 1,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Lunagaron",
+            "First Appearance": "Sunbreak",
+            "Element": "Ice",
+            "Ailments": ["Iceblight", "Stun"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Lunastra",
+            "First Appearance": "2",
+            "Element": "Fire",
+            "Ailments": ["Fireblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 6
+        },
+        {
+            "Name": "Magnamalo",
+            "First Appearance": "Rise",
+            "Element": "None",
+            "Ailments": ["Hellfireblight"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Malfestio",
+            "First Appearance": "Generations",
+            "Element": "None",
+            "Ailments": ["Sleep", "Confusion"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Malzeno",
+            "First Appearance": "Sunbreak",
+            "Element": "Dragon",
+            "Ailments": ["Bloodblight", "Dragonblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Mizutsune",
+            "First Appearance": "Generations",
+            "Element": "Water",
+            "Ailments": ["Bubble", "Waterblight"],
+            "Monster Class": "Leviathan",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Monoblos",
+            "First Appearance": "Monster Hunter",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 7
+        },
+        {
+            "Name": "Najarala",
+            "First Appearance": "4",
+            "Element": "None",
+            "Ailments": ["Paralysis", "Stun"],
+            "Monster Class": "Snake Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Nakarkos",
+            "First Appearance": "Generations",
+            "Element": "Dragon",
+            "Ailments": ["Mucus", "Bones", "Fireblight", "Blastblight", "Dragon", "Thunderblight", "Paralysis"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Namielle",
+            "First Appearance": "Iceborne",
+            "Element": "Water, Thunder",
+            "Ailments": ["Thunderblight", "Waterblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Nargacuga",
+            "First Appearance": "Freedom Unite",
+            "Element": "None",
+            "Ailments": ["Bleeding"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 4,
+            "Total Appearances": 9
+        },
+        {
+            "Name": "Narwa the Allmother",
+            "First Appearance": "Rise",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Nergigante",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Nerscylla",
+            "First Appearance": "4",
+            "Element": "None",
+            "Ailments": ["Poison", "Noxious Poison", "Sleep", "Webbed"],
+            "Monster Class": "Temnoceran",
+            "Has Subspecies?": 1,
+            "Total Appearances": 3
+        },
+        {
+            "Name": "Nibelsnarf",
+            "First Appearance": "Portable 3rd",
+            "Element": "None",
+            "Ailments": ["Waterblight"],
+            "Monster Class": "Leviathan",
+            "Has Subspecies?": 0,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Nightcloak Malfestio",
+            "First Appearance": "Generations Ultimate",
+            "Element": "None",
+            "Ailments": ["Sleep", "Confusion"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Odogaron",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Bleeding"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Paolumu",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Plesioth",
+            "First Appearance": "Monster Hunter",
+            "Element": "Water",
+            "Ailments": ["Waterblight", "Sleep"],
+            "Monster Class": "Piscine Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 10
+        },
+        {
+            "Name": "Pukei-Pukei",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Poison", "Stun"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Qurupeco",
+            "First Appearance": "3 Tri",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Defense Down", "Sleep"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 3
+        },
+        {
+            "Name": "Radobaan",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Sleep", "Confusion"],
+            "Monster Class": "Brute Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Raging Brachydios",
+            "First Appearance": "4 Ultimate",
+            "Element": "None",
+            "Ailments": ["Blastblight", "Blastscourge", "Fireblight"],
+            "Monster Class": "Brute Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 3
+        },
+        {
+            "Name": "Rajang",
+            "First Appearance": "2",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight"],
+            "Monster Class": "Fanged Beast",
+            "Has Subspecies?": 0,
+            "Total Appearances": 11
+        },
+        {
+            "Name": "Rakna-Kadaki",
+            "First Appearance": "Rise",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Webbed"],
+            "Monster Class": "Temnoceran",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Rathalos",
+            "First Appearance": "Monster Hunter",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Stun", "Poison"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 2,
+            "Total Appearances": 18
+        },
+        {
+            "Name": "Rathian",
+            "First Appearance": "Monster Hunter",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Poison"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 2,
+            "Total Appearances": 18
+        },
+        {
+            "Name": "Royal Ludroth",
+            "First Appearance": "3 Tri",
+            "Element": "Water",
+            "Ailments": ["Waterblight"],
+            "Monster Class": "Leviathan",
+            "Has Subspecies?": 1,
+            "Total Appearances": 7
+        },
+        {
+            "Name": "Ruiner Nergigante",
+            "First Appearance": "Iceborne",
+            "Element": "None",
+            "Ailments": ["Bleeding"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Rusted Kushala Daora",
+            "First Appearance": "2",
+            "Element": "Ice",
+            "Ailments": ["Iceblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 5
+        },
+        {
+            "Name": "Rustrazor Ceanataur",
+            "First Appearance": "Generations Ultimate",
+            "Element": "Water",
+            "Ailments": ["Waterblight", "Bleeding", "Defense Down"],
+            "Monster Class": "Carapaceon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Safi'jiiva",
+            "First Appearance": "Iceborne",
+            "Element": "None",
+            "Ailments": ["Fireblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Savage Deviljho",
+            "First Appearance": "3 Ultimate",
+            "Element": "Dragon",
+            "Ailments": ["Defense Down", "Dragonblight"],
+            "Monster Class": "Brute Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 7
+        },
+        {
+            "Name": "Scorned Magnamalo",
+            "First Appearance": "Sunbreak",
+            "Element": "None",
+            "Ailments": ["Hellfireblight", "Dragonblight"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Seething Bazelgeuse",
+            "First Appearance": "Iceborne",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Blastblight"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Seltas",
+            "First Appearance": "4",
+            "Element": "None",
+            "Ailments": ["Defense Down", "Fatigue"],
+            "Monster Class": "Neopteron",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Seltas Queen",
+            "First Appearance": "4",
+            "Element": "Water",
+            "Ailments": ["Waterblight", "Soiled", "Stun"],
+            "Monster Class": "Neopteron",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Seregios",
+            "First Appearance": "4 Ultimate",
+            "Element": "None",
+            "Ailments": ["Bleeding"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 5
+        },
+        {
+            "Name": "Shagaru Magala",
+            "First Appearance": "4",
+            "Element": "None",
+            "Ailments": ["Frenzy Virus"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 6
+        },
+        {
+            "Name": "Shara Ishvalda",
+            "First Appearance": "Iceborne",
+            "Element": "None",
+            "Ailments": ["Stun"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Shen Gaoren",
+            "First Appearance": "2",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Carapaceon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Shogun Ceanataur",
+            "First Appearance": "2",
+            "Element": "Water",
+            "Ailments": ["Waterblight", "Bleeding"],
+            "Monster Class": "Carapaceon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 7
+        },
+        {
+            "Name": "Shrieking Legiana",
+            "First Appearance": "Iceborne",
+            "Element": "Ice",
+            "Ailments": ["Iceblight"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Snowbaron Lagombi",
+            "First Appearance": "Generations",
+            "Element": "Ice",
+            "Ailments": ["Iceblight", "Snowman", "Stun"],
+            "Monster Class": "Fanged Beast",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Soulseer Mizutsune",
+            "First Appearance": "Generations Ultimate",
+            "Element": "Water, Fire",
+            "Ailments": ["Bubble", "Waterblight", "Fireblight"],
+            "Monster Class": "Leviathan",
+            "Has Subspecies?": 1,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Stonefist Hermitaur",
+            "First Appearance": "Generations Ultimate",
+            "Element": "Water",
+            "Ailments": ["Waterblight"],
+            "Monster Class": "Carapaceon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Teostra",
+            "First Appearance": "2",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Blastblight", "Stun"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 12
+        },
+        {
+            "Name": "Tetranadon",
+            "First Appearance": "Rise",
+            "Element": "Water",
+            "Ailments": ["Waterblight", "Stun"],
+            "Monster Class": "Amphibian",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Tetsucabra",
+            "First Appearance": "4",
+            "Element": "None",
+            "Ailments": ["Fatigue"],
+            "Monster Class": "Amphibian",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Thunderlord Zinogre",
+            "First Appearance": "Generations",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight", "Stun"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Tigrex",
+            "First Appearance": "Freedom 2",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 2,
+            "Total Appearances": 11
+        },
+        {
+            "Name": "Tobi-Kadachi",
+            "First Appearance": "World",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Tzitzi-Ya-Ku",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Stun"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Ukanlos",
+            "First Appearance": "Freedom Unite",
+            "Element": "Ice",
+            "Ailments": ["Iceblight", "Snowman"],
+            "Monster Class": "Flying Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 5
+        },
+        {
+            "Name": "Uragaan",
+            "First Appearance": "3 Tri",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Sleep"],
+            "Monster Class": "Brute Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 7
+        },
+        {
+            "Name": "Vaal Hazak",
+            "First Appearance": "World",
+            "Element": "None",
+            "Ailments": ["Effluvium"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 1,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Valstrax",
+            "First Appearance": "Generations Ultimate",
+            "Element": "Dragon",
+            "Ailments": ["Dragonblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Velkhana",
+            "First Appearance": "Iceborne",
+            "Element": "Ice",
+            "Ailments": ["Iceblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Velocidrome",
+            "First Appearance": "Monster Hunter",
+            "Element": "None",
+            "Ailments": ["None"],
+            "Monster Class": "Bird Wyvern",
+            "Has Subspecies?": 0,
+            "Total Appearances": 11
+        },
+        {
+            "Name": "Vespoid Queen",
+            "First Appearance": "Freedom Unite",
+            "Element": "None",
+            "Ailments": ["Defense Down", "Paralysis"],
+            "Monster Class": "Neopteron",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        },
+        {
+            "Name": "Volvidon",
+            "First Appearance": "Portable 3rd",
+            "Element": "None",
+            "Ailments": ["Paralysis", "Soiled"],
+            "Monster Class": "Fanged Beast",
+            "Has Subspecies?": 0,
+            "Total Appearances": 6
+        },
+        {
+            "Name": "White Fatalis",
+            "First Appearance": "2",
+            "Element": "Thunder, Dragon",
+            "Ailments": ["Thunderblight", "Dragonblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 6
+        },
+        {
+            "Name": "Wind Seprent Ibushi",
+            "First Appearance": "Rise",
+            "Element": "Dragon",
+            "Ailments": ["Dragonblight"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 2
+        },
+        {
+            "Name": "Zamtrios",
+            "First Appearance": "4",
+            "Element": "Water, Ice",
+            "Ailments": ["Waterblight", "Iceblight", "Snowman"],
+            "Monster Class": "Amphibian",
+            "Has Subspecies?": 1,
+            "Total Appearances": 4
+        },
+        {
+            "Name": "Zinogre",
+            "First Appearance": "Portable 3rd",
+            "Element": "Thunder",
+            "Ailments": ["Thunderblight"],
+            "Monster Class": "Fanged Wyvern",
+            "Has Subspecies?": 1,
+            "Total Appearances": 10
+        },
+        {
+            "Name": "Zorah Magdaros",
+            "First Appearance": "World",
+            "Element": "Fire",
+            "Ailments": ["Fireblight", "Stun"],
+            "Monster Class": "Elder Dragon",
+            "Has Subspecies?": 0,
+            "Total Appearances": 1
+        }
+    ]
+    
+    
+    
+    
+
+
+  

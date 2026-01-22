@@ -1,0 +1,662 @@
+:root {
+    /* CSS HEX */
+--delft-blue: #313975ff;    
+--olive: #786b0aff; 
+--rich-black: #0b0d1fff; 
+--raisin-black: #1b1c24ff;
+--egyptian-blue: #2f3b9cff;
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url(Fonts/Quicksand-Light.ttf);
+    src: url(Fonts/Quicksand-Bold.ttf);
+    src: url(Fonts/Quicksand-Medium.ttf);
+    src: url(Fonts/Quicksand-Regular.ttf);
+    src: url(Fonts/Quicksand-SemiBold.ttf);
+    src: url(Fonts/Quicksand-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Quicksand';
+    background-color: var(--delft-blue);
+}
+
+.dynamic-textbox{
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    min-width: 150px;
+    min-height: 225px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+.corner {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-size: cover;
+}
+
+.corner.top-left{
+    top: 0;
+    left: 0;
+    background-image: url(Icons/corner-top-left.png);
+}
+.corner.top-right{
+    top: 0;
+    right: 0;
+    background-image: url(Icons/corner-top-right.png);
+}
+.corner.bottom-left{
+    bottom: 0;
+    left: 0;
+    background-image: url(Icons/corner-bottom-left.png);
+}
+.corner.bottom-right{
+    bottom: 0;
+    right: 0;
+    background-image: url(Icons/corner-bottom-right.png);
+}
+.edge{
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.edge.top{
+    top: 0;
+    left: 75px;
+    right: 75px;
+    height: 75px;
+    background-image: url(Icons/edge-horizontal.png);
+}
+.edge.bottom{
+    bottom: 0;
+    left: 75px;
+    right: 75px;
+    height: 75px;
+    background-image: url(Icons/edge-horizontal.png);
+
+}
+.edge.right{
+    top: 75px;
+    bottom: 75px;
+    right: 0;
+    width: 75px;
+    background-image: url(Icons/edge-vertical.png);
+}
+.edge.left{
+    top: 75px;
+    bottom: 75px;
+    left: 0;
+    width: 75px;
+    background-image: url(Icons/edge-vertical.png);
+
+}
+.inner-wrapper{
+    position: relative;
+    background: radial-gradient(circle at 50% 50%, rgba(47, 59, 156, 1) 0%, rgba(47, 59, 156, 1) 13%, rgba(47, 59, 156, 0) 98%);
+    padding: 40px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    overflow: hidden; /* To handle long content */
+    z-index: 1;
+    
+    
+}
+.content{
+    word-wrap: break-word;
+    color: white;
+    
+}
+.background-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.background-image{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    opacity: 35%;
+}
+body.modal-active {
+    pointer-events: none;
+}
+body.modal-active-two{
+    pointer-events: none;
+}
+.modal-overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    pointer-events: all;
+    transition: 1s;
+}
+.modal-overlay-two {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    pointer-events: all;  
+    transition: 1s;
+}
+body.modal-active .modal-overlay {
+    display: block;
+}
+body.modal-active .information-box{
+    visibility: visible;
+    opacity: 100%;
+}
+body.modal-active-two .modal-overlay-two{
+   display: block;
+}
+body.modal-active-two .tutorial-box{
+    visibility: visible;
+    opacity: 100%;
+}
+.win-screen{
+    position: fixed;
+    height: 75%;
+    width: auto;
+    top: 20em;
+    justify-self: center;
+    align-self: center;
+    z-index: 21;
+    visibility: hidden;
+    opacity: 1;
+    left: -100%;
+    transition: left .75s ease-in-out, opacity 1s ease-in-out;
+}
+.win-screen.visible{
+    visibility: visible;
+    opacity: 1;
+    left: 50%;
+    transform:  translateX(-50%);
+}
+@keyframes fadeOut {
+    0%, 80%{
+        left: 50%;
+        transform:  translateX(-50%);
+    }
+    100%{
+        left: -100%;
+        opacity: 1;
+    }
+}
+.win-screen.fade-out {
+    animation: fadeOut 1s forwards; 
+}
+/* .win-screen::after{
+    visibility: hidden;
+    opacity: 0%;
+    transition: 5s;
+} */
+.win-screen-text {
+    text-align: center;
+    font-size: xx-large;
+}
+.tutorial-box {
+    position: fixed;
+    height: 10em;
+    width: 30em;
+    background-color: var(--egyptian-blue);
+    justify-self: center;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: var(--olive);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 21; 
+    pointer-events: auto;
+    visibility: hidden;
+    opacity: 0%;
+}
+
+.tut-button{
+    position: relative;
+    left: 430px;
+    bottom: 70px;
+}
+.tutorial-box > .correct-guess, .partial-guess, .wrong-down, .wrong-up, .wrong-guess{
+    height: 100%;
+}
+.information-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    visibility: hidden;
+    pointer-events: auto;
+    align-self: center;
+    transition: 1s;
+    opacity: 0%;
+}
+
+.guildarm-one{
+    position: absolute;
+    width: 55%;
+    height: auto;
+    right: -25em;
+    bottom: -14em;
+    z-index: 19;
+}
+.info-exit {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: inherit;
+}
+.info-text{
+    color: white;
+    /* list-style-position: inside;
+    text-wrap: balance; */
+    z-index: 20;
+}
+.daily-monster-box {
+    position: fixed;
+    top: 20em;
+    left: -.75em;
+    visibility: hidden;
+    transition: 5s;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    color: white;
+}
+
+input {
+    border: unset;
+    background: #d6d6d6;
+    padding: 0.5em;
+    width: 20em;
+    height: 5em;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button {
+    cursor: pointer;
+}
+.info-button{
+    border: unset;
+    opacity: 100%;
+    background-color: transparent;
+    transition: .1s;
+}
+.exit-button{
+    position: absolute;
+    left: 34.5em;
+}
+.colorblind-button{
+    position: absolute;
+    top: 125px;
+    right: 180px;
+    visibility: hidden;
+}
+
+.info-icon{
+    object-fit: contain;
+    max-width: 2em;
+    max-height: 2em;
+}
+.info-button:hover{
+    filter: invert();
+    transition: .10s;
+}
+.help-icon{
+    object-fit: contain;
+    max-width: 2em;
+    max-height: 2em;
+}
+.help-button{
+    border: unset;
+    background-color: transparent;
+    transition: .1s;
+}
+.help-button:hover{
+    filter: invert();
+    transition: .10s;
+}
+
+.button-submit{
+    border: unset;
+    background: var(--olive);
+    padding: 0.5em;
+    color: #ffffff;
+    width: 5em;
+    border: solid;
+    border-width: 1px;
+    border-color: var(--white);
+    transition: .25s;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-submit:hover{
+    opacity: 85%;
+    transition: .25s;
+}
+.button-submit > img {
+    position: inherit;
+    height: 6em;
+    width: 6em;
+    
+}
+
+.input-wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.suggest-wrapper {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.suggest-list {
+    list-style: none;
+    padding: unset;
+    margin: unset;
+    position: absolute;
+    width: 100%;
+}
+
+.suggest-list li {
+    border: 1px solid #d6d6d6;
+    border-top: unset;
+    background-color: gray;
+}
+
+.suggest-list li:hover {
+    background: #e0e0e0;
+}
+
+.suggest-list button {
+    border: unset;
+    background: unset;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+}
+
+.play-container{
+    display: grid;
+    justify-content: center;
+}
+.guess-container {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-auto-rows: 100px;
+    gap: 10px;
+    
+}
+.guess-header, .individual-guess{
+    display: contents;
+}
+.guess-metric, .correct-guess, .wrong-guess, .partial-guess, .wrong-up, .wrong-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100px;
+    height: 100px; */
+}
+
+/* .guess-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.individual-guess{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+} */
+.guess-text{
+    font-size: .9;
+    pointer-events: none;
+    transition: .25s;
+    
+}
+.monster-image{
+    display: block;
+    background-color: var(--raisin-black);
+    border-radius: 8px;
+    max-width: 72px;
+    max-height: 72px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: .25s;
+}
+.monster-image:hover{
+    visibility: visible;
+    transform: scale(1.5);
+}
+.image-container {
+    width: 5em;
+    height: 5em;
+}
+.image-container:hover > .name-overlay{
+    visibility: visible;
+}
+.name-overlay{
+    position: relative;
+    bottom: 50px;
+    left: 3px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 5px 0;
+    font-size: 15px;
+    max-width: 5em;
+    pointer-events: none;
+    visibility: hidden;
+}
+/* Stuff for guesses in main game
+*/
+.guess-metric{
+   width: 5em;
+   height: 5em;
+   color: white;
+   text-align: center;
+   justify-content: center;
+   border: solid;
+   border-color: white;
+   border-width: 1px;
+   border-top: transparent;
+   border-left: transparent;
+   border-right: transparent;
+   
+}
+.correct-guess{
+    background-color: #00f020;
+    border: solid;
+    max-width: 5em;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 1px;
+    max-height: 5em;
+    text-align: center;
+    transition: .25s;
+    overflow: hidden;
+}
+.correct-guess:hover{
+    transition: .25s;
+    transform: scale(1.5);
+    overflow: visible;
+}
+.correct-guess:hover > .guess-text{
+    font-size: .75em;
+    transition: .25s;
+}
+.wrong-guess{
+    background-color: #f00000;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    max-width: 5em;
+    border-radius: 8px;
+    max-height: 5em;
+    text-align: center;
+    overflow: hidden;
+    transition: .25s;
+}
+.wrong-guess:hover{
+    transition: .25s;
+    transform:  scale(1.5);
+    z-index: 10;
+    overflow: visible;
+}
+.wrong-guess:hover > .guess-text {
+    font-size: .75em;
+    transition: .25s;
+    }
+.partial-guess{
+    background-color: #eeff00;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    max-width: 5em;
+    border-radius: 8px;
+    max-height: 5em;
+    align-items: center;
+    line-height: 1.2;
+    white-space: pre-wrap;
+    text-align: center;
+    overflow: hidden;
+    transition: .25s;
+}
+
+.partial-guess:hover {
+    transition: .25s;
+    transform:  scale(1.5);
+    z-index: 10;
+    overflow: visible;
+    
+}
+.partial-guess:hover > .guess-text {
+    font-size: .75em;
+    transition: .25s;
+}
+
+.wrong-down{
+    background-color: #f00000;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    max-width: 5em;
+    border-radius: 8px;
+    max-height: 5em;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: .25s;
+}
+.wrong-down:hover{
+    transition: .25s;
+    transform:  scale(1.5);
+    z-index: 10;
+    overflow: visible;
+}
+.wrong-up{
+    background-color: #f00000;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    max-width: 5em;
+    border-radius: 8px;
+    max-height: 5em;
+    text-align: center;
+    position: relative; /* keep and eye out for this because it might fuck up when scrolling???? */
+    overflow: hidden;
+    transition: .25s;
+}
+.wrong-up:hover{
+    transition: .25s;
+    transform:  scale(1.5);
+    z-index: 10;
+    overflow: visible;
+}
+.wrong-up::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 1em solid white;
+    transform: translate(-50%, -200%);
+}
+.wrong-down::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid white;
+    transform: translate(-50%, 100%);
+}
+
+/*Stuff for guesses in Armor Mode
+*/
+.armor-container{
+    display: flex;
+}
+
+
+.test{
+    background-color: #818cf0;
+    background-color: #e0f000;
+    background-color: rgb(red, green, blue);
+}
+
+

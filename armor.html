@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Armor Set</title>
+</head>
+<body>
+    <div class="modal-overlay"></div>
+    <div class="modal-overlay-two"></div>
+    <div class="main-container">
+        <div class="background-image-container">
+        <img src="Icons/background-image.png" alt="" class="background-image">  
+      </div>
+      <div class="header-container">
+        <img src="Icons/monstly-logo.png" alt="">
+        <div class="header-info">
+         
+         <button class="info-button" id="info-button">
+             <img class="info-icon" src="Icons/info_icon.png" alt="">
+         </button>
+         <button class="help-button" id="help-button">
+             <img class="help-icon" src="Icons/help_icon.png" alt="">
+         </button>
+        </div>
+     </div>
+     <div class="play-container">
+        <div class="win-screen">
+            <img src="Icons/quest-completed.png" alt="">
+        </div>
+        <form class="input-wrapper" id="guess-form" action="" autocomplete="off" onsubmit="return false">
+            <div id="suggest-wrapper" class="suggest-wrapper">
+            <input id="suggest-input" type="text" placeholder="Monster Name">
+        </div>
+            <button type="submit" class="button-submit" id="button-submit"><img src="Icons/send-image.png" alt=""></button>
+        </form>
+        
+        <div class="armor-container">
+            <img class="monster-armor-image" id="armor-female" src="Armor Sets/Aknosom_Female.jpg" alt="">
+            <div><img src="monster-icons/Aknosom_Icon.webp" alt=""> Aknosom</div>
+            <img class="monster-armor-image" id="armor-male" src="Armor Sets/Aknosom_Male.jpg" alt="">
+        </div>
+     </div>
+
+
+
+    </div>
+    <script src="armorSuggestions.js"></script>
+</body>
+</html>
